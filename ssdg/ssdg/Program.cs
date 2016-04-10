@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-namespace ConsoleApplication2
+namespace peturville
 {
-    class PrintNumbers
+    class Program
     {
         static void Main()
         {
-            Console.WriteLine("1");
-            Console.WriteLine("181");
-            Console.WriteLine("1001");
+            Console.WriteLine("Say Hi!");
+            string a = Console.ReadLine();
+            Console.WriteLine("Hi, Petar!");
         }
     }
 }
